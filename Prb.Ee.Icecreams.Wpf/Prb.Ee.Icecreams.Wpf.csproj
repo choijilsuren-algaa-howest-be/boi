@@ -6,4 +6,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Prb.Ee.Icecreams.Core1\Prb.Ee.Icecreams.Core.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -41,7 +41,7 @@
                         Margin="233,29,0,0"
                         VerticalAlignment="Top"
                         Width="23"
-                        Height="23" />
+                        Height="23" Click="btnAddFlavour_Click" />
                 <ListBox x:Name="lstChosenFlavours"
                          HorizontalAlignment="Left"
                          Height="126"
@@ -72,7 +72,7 @@
                         Margin="95,132,0,0"
                         VerticalAlignment="Top"
                         Width="75"
-                        Height="23" />
+                        Height="23" Click="btnSellIcecream_Click" />
             </Grid>
         </Grid>
         <Label Content="Verpakking"
@@ -92,7 +92,7 @@
                 HorizontalAlignment="Left"
                 Margin="323,77,0,0"
                 VerticalAlignment="Top"
-                Width="102" />
+                Width="102" Click="btnCreateNewIcecream_Click" />
         <TextBlock x:Name="tbkFeedback"
                    HorizontalAlignment="Left"
                    Margin="227,287,0,0"
